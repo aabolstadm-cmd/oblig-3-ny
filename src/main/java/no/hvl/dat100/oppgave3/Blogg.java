@@ -38,6 +38,7 @@ public class Blogg {
 			}
 				i++;
 		}
+
 		return pos;
 	}
 
