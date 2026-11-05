@@ -15,14 +15,14 @@ public abstract class Innlegg {
 
 	public Innlegg(int id, String bruker, String dato) {
 		this.id = id;
-		this bruker = bruker;
+		this.bruker = bruker;
 		this.dato = dato;
 		this.likes = 0;
 	}
 
 	public Innlegg(int id, String bruker, String dato, int likes) {
 		this.id = id;
-		this bruker = bruker;
+		this.bruker = bruker;
 		this.dato = dato;
 		this.likes = likes;
 	}
@@ -32,7 +32,7 @@ public abstract class Innlegg {
 	}
 
 	public void setBruker(String bruker) {
-		this bruker = bruker;
+		this.bruker = bruker;
 	}
 
 	public String getDato() {
@@ -66,7 +66,7 @@ public abstract class Innlegg {
 
 	@Override
 	public String toString() {
-		return id + /n "Ole Olsen" /n + dato + /n + likes +/n ;
+		return id +"\nOle Olsen\n" + dato + "\n" + likes +"\n" ;
 
 	}
 
