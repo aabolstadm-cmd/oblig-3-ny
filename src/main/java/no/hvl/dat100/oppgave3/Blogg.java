@@ -5,7 +5,6 @@ import no.hvl.dat100.oppgave1.*;
 
 public class Blogg {
 
-
 		private Innlegg[] innleggtabell;
 	private int nesteledig;
 
