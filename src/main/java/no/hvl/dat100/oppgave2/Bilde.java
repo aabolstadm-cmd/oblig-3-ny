@@ -16,18 +16,16 @@ public class Bilde extends Tekst {
 	}
 	
 	public String getUrl() {
-		throw new UnsupportedOperationException(TODO.method());
-
+		return url;
 	}
 
 	public void setUrl(String url) {
-		throw new UnsupportedOperationException(TODO.method());
+		this.url = url;
 	}
 
 	@Override
 	public String toString() {
-		throw new UnsupportedOperationException(TODO.method ());
-
+		return "BILDE\n" + getId() + "\n" + getBruker() + "\n" + getDato() + "\n" + getLikes() + "\n" +  getTekst()+ "\n" + getUrl() + "\n";
 	}
 
 	// Metoden nedenfor er kun for valgfri oppgave 6
