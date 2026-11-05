@@ -7,6 +7,7 @@ public class Bilde extends Tekst {
 	// TODO - objekt variable
 	
 	public Bilde(int id, String bruker, String dato, String tekst, String url) {
+		
 		throw new UnsupportedOperationException(TODO.constructor("Bilde"));
 	}
 
